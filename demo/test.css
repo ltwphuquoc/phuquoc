@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+}
+section, header, aside, footer, nav{
+    border: 0px solid red;
+    font-size: 20px;
+    text-align: center;
+}
+header{
+    line-height: 90px;
+    background-color: grey;
+    text-overflow: clip; 
+    color:black;
+    height: 100px;
+    background : url("https://cdn.tgdd.vn/Files/2019/11/14/1218860/chup-anh-3d-la-gi-cach-chup-anh-3d-bang-dien-thoai-may-anh-don-gian-5.jpg" );
+}
+header  h1 {
+
+    text-overflow: clip; 
+    text-align: center;
+    color: yellow;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    
+}
+@keyframes example {
+    0%   { top:-30px;color: greenyellow;}
+    25%  { top:40px;color: red;}
+    50%  {top:-30px;color: rgb(30, 255, 0);}
+    75%  {top:40px;color: orangered;}
+    100% {top:0px;color: green;}
+  }
+header h1:hover{
+    transform: scale(1.5); 
+    color: red;
+    letter-spacing: 60px;
+    transition: 3s;
+}
+nav{
+    height: 70px;
+    background-color: rgb(202, 189, 171);
+}
+#nav_ul{
+    margin: 0px;
+}
+#nav_ul li{
+    list-style-type: none;
+    float: left;
+    margin: 40px;
+    line-height: 0px;
+}
+/* Link tag a */
+#nav_ul li a{
+    text-decoration: none;
+}
+#nav_ul li a:visited{
+    color:blue ;
+}
+
+#nav_ul li a:hover{
+    color: greenyellow;
+}
+#nav_ul li:first-child{
+    margin-left: 200px;
+}
+#nav_ul li a:active{
+    color: red;
+}
+nav button{
+    width: 100px;
+    height: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 16px;
+    border: none;
+}
+nav button a{
+    text-decoration: none;;
+}
+nav button:hover{
+    box-shadow: 5px 3px 4px black;
+    background-color:grey;
+    text-shadow: 1px 1px red;
+    color: yellow;
+}
+#section{
+    width: 42%;
+    height: 300px;
+    background-color: grey;
+    color: red;
+    float: left;
+}
+ .owl-dot  {
+    background-color : rgb(196, 126, 36)!important;
+    margin-left: 10px  !important;
+    border-radius: 50%;
+}
+.active{
+    background-color:lightgray !important;
+}
+section div div img{
+    height: 260px;
+    margin:4px !important;
+
+}
+img :first-child{
+    margin-right: 0px !important;
+}
+img:last-child{
+    margin-left: 10px !important;
+}
+
+aside{
+    width: 57%;
+    /* background-color: pink; */
+    color: rgb(107, 107, 209);
+    height: 300px;
+    float: right;
+    position: relative;
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+aside img{
+    height: 250px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+aside section ol li{
+    text-align: left ;
+}
+aside span{
+    color: rgb(50, 59, 179);
+    padding: 10px 20px 30px 10px;
+}
+#section2{
+    
+}
+footer{
+    height: 200px;
+    background-color: purple;
+    clear: both;
+    background : url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9wLEHRobN5TO3iKcUwXslJTKJedxPbN0ep_G11oWsU9B0I_P94eFy5sHn7JkdTKUjOds&usqp=CAU");
+    background-size: cover;
+    opacity: 0.8;
+    position: relative;
+}
+#icon_fontwesome p{
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: yellow;
+}
+#icon_fontwesome p i{
+    margin-top: 8px;
+}
+#icon_fontwesome p:hover{
+    transform: scale(1.2);
+    background-color: black;
+    color: white;
+}
+article {
+    position: absolute;
+    font-size: 15px;
+    top: 65px;
+    left: 10px;
+}
+article p{
+    text-align: left;
+    margin-left: 20px;
+}

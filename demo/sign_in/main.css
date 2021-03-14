@@ -1,0 +1,40 @@
+body{
+    background-image: url("../image/paris_pic.jpg");
+    background-size: cover;
+    margin: 0px auto;
+    text-align: center;
+
+}
+div{
+    position: absolute;
+    left: 36%;
+    top: 30%
+}
+div input{
+    font-size: 20px;
+    height: 50px;
+    width: 350px;
+    border-radius: 10px;
+    border: none;
+    display: block;
+    margin: 20px 0px;
+    background-color: aquamarine;
+}
+div button{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: blanchedalmond;
+    border: none;
+    border-radius: 5px;
+}
+input:hover{
+    transform: scale(1.2);
+    background-color: aqua;
+}
+button:hover{
+    transform: scale(1.1);
+    background-color: chartreuse;
+    color: red;
+}
